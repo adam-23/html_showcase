@@ -1,0 +1,28 @@
+
+/* Faqs */
+#content-wrapper .user_content .faqs h4 { padding-left: 10px; font-size: 15px;  cursor: pointer; font-family: 'Arimo', sans-serif; color: #0f5091; font-weight: bold;}
+.faqs .arrow {
+	display: inline-block;
+    font: normal normal normal 14px/1 'FontAwesome';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+.faqs .arrow:before {
+   content: "\f105\0020";
+}
+.faqs .arrow.open:before {
+    content: "\f107\0020";
+}
+.faqs .new {
+	font-size: 9px;
+	background-color: #1ea64d;
+	color: #fff;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 2px 3px;
+	border-radius: 2px;
+	vertical-align: top;
+}
